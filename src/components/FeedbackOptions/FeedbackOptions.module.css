@@ -1,0 +1,32 @@
+.FeedbackOptions__button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 250ms linear,
+                scale 250ms linear;
+}
+
+
+.FeedbackOptions__button + .FeedbackOptions__button {
+    margin-left: 15px;
+}
+
+.FeedbackOptions__button.good {
+    background-color: green;
+}
+
+.FeedbackOptions__button.neutral {
+    background-color: grey;
+}
+
+.FeedbackOptions__button.bad {
+    background-color: red;
+}
+
+.FeedbackOptions__button:hover {
+    background-color: #fff;
+    scale: 1.1;
+}
